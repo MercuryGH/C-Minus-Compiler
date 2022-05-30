@@ -1,0 +1,291 @@
+{
+	"children" : 
+	[
+		{
+			"children" : 
+			[
+				{
+					"type" : "int"
+				},
+				{
+					"id" : "gl"
+				}
+			],
+			"node_type" : "VariableDecl"
+		},
+		{
+			"children" : 
+			[
+				{
+					"type" : "int"
+				},
+				{
+					"id" : "main"
+				},
+				{
+					"children" : 
+					[
+						{
+							"children" : 
+							[
+								{
+									"children" : 
+									[
+										{
+											"type" : "int"
+										},
+										{
+											"id" : "a"
+										}
+									],
+									"node_type" : "VariableDecl"
+								},
+								{
+									"children" : 
+									[
+										{
+											"type" : "int"
+										},
+										{
+											"id" : "b"
+										}
+									],
+									"node_type" : "VariableDecl"
+								}
+							],
+							"node_type" : "LocalVariableDecl"
+						},
+						{
+							"children" : 
+							[
+								{
+									"children" : 
+									[
+										{
+											"children" : 
+											[
+												{
+													"id" : "a"
+												}
+											],
+											"node_type" : "Variable"
+										},
+										{
+											"children" : 
+											[
+												{
+													"children" : 
+													[
+														{
+															"children" : 
+															[
+																{
+																	"children" : 
+																	[
+																		{
+																			"children" : 
+																			[
+																				{
+																					"id" : "input"
+																				}
+																			],
+																			"node_type" : "Call"
+																		}
+																	],
+																	"node_type" : "Term"
+																}
+															],
+															"node_type" : "AddExpr"
+														}
+													],
+													"node_type" : "SimpleExpr"
+												}
+											],
+											"node_type" : "Expr"
+										}
+									],
+									"node_type" : "Expr"
+								},
+								{
+									"children" : 
+									[
+										{
+											"children" : 
+											[
+												{
+													"id" : "b"
+												}
+											],
+											"node_type" : "Variable"
+										},
+										{
+											"children" : 
+											[
+												{
+													"children" : 
+													[
+														{
+															"children" : 
+															[
+																{
+																	"children" : 
+																	[
+																		{
+																			"children" : 
+																			[
+																				{
+																					"id" : "input"
+																				}
+																			],
+																			"node_type" : "Call"
+																		}
+																	],
+																	"node_type" : "Term"
+																}
+															],
+															"node_type" : "AddExpr"
+														}
+													],
+													"node_type" : "SimpleExpr"
+												}
+											],
+											"node_type" : "Expr"
+										}
+									],
+									"node_type" : "Expr"
+								},
+								{
+									"children" : 
+									[
+										{
+											"children" : 
+											[
+												{
+													"children" : 
+													[
+														{
+															"children" : 
+															[
+																{
+																	"children" : 
+																	[
+																		{
+																			"id" : "output"
+																		},
+																		{
+																			"children" : 
+																			[
+																				{
+																					"children" : 
+																					[
+																						{
+																							"children" : 
+																							[
+																								{
+																									"children" : 
+																									[
+																										{
+																											"children" : 
+																											[
+																												{
+																													"children" : 
+																													[
+																														{
+																															"id" : "a"
+																														}
+																													],
+																													"node_type" : "Variable"
+																												}
+																											],
+																											"node_type" : "Term"
+																										},
+																										{
+																											"operator" : "+"
+																										},
+																										{
+																											"children" : 
+																											[
+																												{
+																													"children" : 
+																													[
+																														{
+																															"id" : "b"
+																														}
+																													],
+																													"node_type" : "Variable"
+																												}
+																											],
+																											"node_type" : "Term"
+																										}
+																									],
+																									"node_type" : "AddExpr"
+																								}
+																							],
+																							"node_type" : "SimpleExpr"
+																						}
+																					],
+																					"node_type" : "Expr"
+																				}
+																			],
+																			"node_type" : "ArgList"
+																		}
+																	],
+																	"node_type" : "Call"
+																}
+															],
+															"node_type" : "Term"
+														}
+													],
+													"node_type" : "AddExpr"
+												}
+											],
+											"node_type" : "SimpleExpr"
+										}
+									],
+									"node_type" : "Expr"
+								},
+								{
+									"children" : 
+									[
+										{
+											"children" : 
+											[
+												{
+													"children" : 
+													[
+														{
+															"children" : 
+															[
+																{
+																	"children" : 
+																	[
+																		{
+																			"literal" : "0"
+																		}
+																	],
+																	"node_type" : "Term"
+																}
+															],
+															"node_type" : "AddExpr"
+														}
+													],
+													"node_type" : "SimpleExpr"
+												}
+											],
+											"node_type" : "Expr"
+										}
+									],
+									"node_type" : "ReturnStmt"
+								}
+							],
+							"node_type" : "StmtList"
+						}
+					],
+					"node_type" : "CompoundStmt"
+				}
+			],
+			"node_type" : "FuncDecl"
+		}
+	],
+	"node_type" : "DeclList"
+}
